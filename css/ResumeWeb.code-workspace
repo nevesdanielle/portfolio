@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Figma/Webpage/ResumeWeb"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Kards10"
+	}
+}
