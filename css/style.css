@@ -1,7 +1,7 @@
 /*
 * Portfolio
 * Danielle Neves
-* website : danielleneves.com
+* website : danielleneves.dk
 
 */
 
@@ -38,7 +38,7 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lato','Open Sans';
     font-size: 55px;
 	color: #050505;
     line-height: 60px;
@@ -46,14 +46,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato','Open Sans';
     font-size: 30px;
     line-height: 30px;
 	font-weight: normal;
 }
 
 h4 {
-    font-family:  'Lato', serif;
+    font-family:  'Lato','Open Sans';
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
@@ -88,7 +88,7 @@ body {
 .size-20 {
     font-size: 20px;
     line-height: 20px;
-    font-family: 'Lato', serif;
+    font-family: 'Lato', 'Open Sans';
 	font-weight: bold;
 }
 
@@ -380,6 +380,43 @@ a.active {
     font-size: 16px;
     color: #ffa70d;
 }
+
+/* case study section
+==================================================*/
+
+.case-study {
+    position: relative;               
+    background-size: cover;            
+    background-position: center;       
+    background-repeat: no-repeat;      
+    min-height: 600px; 
+    font-display: #000000;                   
+}
+
+/* Button styling */
+.case-button {
+    position: relative;                                   
+    width: 180px;                      
+    height: 45px;                     
+    background-color: white;          
+    color: black;                                     
+    border-radius: 30px;              
+    text-align: center;                                           
+    cursor: pointer; 
+    border:none;
+    font-family: 'Lato','Open Sans';
+    font-size: 17px;
+	font-weight: 500;     
+    letter-spacing: 2px;
+    line-height: 10px;
+              
+}
+
+.case-button:hover {
+    background-color: black;          
+    color: white;                 
+}
+
 
 
 /* about section
@@ -1227,12 +1264,6 @@ fieldset {
     color: #ffa70d;
 }
 
-.socialfoot {
-    padding: center;
-    list-style: none;
-    margin-top: 80px;
-}
-
 
 
 
@@ -1246,10 +1277,43 @@ fieldset {
     margin-bottom: 10px;
     border-radius: 0;
 }
+.social-foot {
+    float: right;
+    line-height: 60px;
+    margin: 5px 17px 0 30px;
+}
+
+.social-foot a {
+    color: #000000;
+    font-size: 20px;
+}
+a:hover{
+    color: #ffa70d;
+}
 
 
 /* Responsive Media Queries
 ==================================================*/
+/* Styles for tablets and smaller devices (widths between 768px and 1024px) */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 40px; /* Adjust font size for medium screens */
+    }
+}
+
+/* Styles for mobile devices (widths 767px and below) */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 30px; /* Smaller font size for mobile devices */
+    }
+}
+
+/* Styles for very small devices (widths 480px and below) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px; /* Even smaller font size for very small screens */
+    }
+}
 
 @media (max-width: 991px) { 
     .portfolio .categories-grid .categories ul li a {
@@ -1266,7 +1330,7 @@ fieldset {
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Playfair Display', serif;
+        font-family: 'Lato', 'Open Sans';
         font-size: 45px;
         line-height: 45px;
     }

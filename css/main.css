@@ -2,7 +2,7 @@
 /*
 * Portfolio
 * Danielle Neves
-* website : danielleneves.com
+* website : danielleneves.dk
 
 */
 
@@ -454,6 +454,7 @@ ul.sublist {
     background: rgba(232, 232, 232, 0.95);
 }
 
+
 /* =Header
 -------------------------------------------------------------- */
 
@@ -471,20 +472,22 @@ ul.sublist {
 }
 
 .logo a {
-    text-transform: normal;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-family: 'Tylko';
-    font-size: 35px;
+    color: #111111;
+    line-height: 24px;
+    font-size: 20px;
+    font-family: 'Montserrat-ExtraBold';
+    font-weight: 100;
+    letter-spacing: 0.4px;
 }
 a:hover>span.site-name{
-    color: #333;
+    color: #ffa70d;
 }
 
 .logo h1 {
     line-height: 100px;
 
 }
+
 
 /*Slider Home*/
 .slider-wrapper {
@@ -1408,7 +1411,6 @@ ul.sub-menu li a {
     padding-left: 50px;
 }
 .menu-social-media ul li {
-    padding-left: 15px;
     padding-left: 15px;
     display: inline;
 }
@@ -3003,6 +3005,7 @@ input[type="text"] {
     font-size: 14px;
     letter-spacing: 1.5pt;
 }
+
 ul.social-media {
     padding: 0;
     text-align: center;
