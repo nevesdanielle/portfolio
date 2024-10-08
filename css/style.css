@@ -441,25 +441,22 @@ a.active {
 
 }
 .about-div img {
+    position: relative;
     width: 200px;
-    padding: 10px;
     border-radius: 50%;
-    margin-top: 50px;                 
+    margin-top: 50px; 
+    text-align: center;                
 
 }
 .about-div .icon ion-icon {
 font-size: 25px;
-padding: 10px;
-color: #ffffff;
+color: #000000;
 border-radius: 50%;
 background-color: #ffa70d;
 margin: 20px 5px;
 cursor: pointer;
-}
-    width: 200px;
-    padding: 10px;
-    border-radius: 50%;
-    margin-top: 50px;                 
+position: relative;
+text-align: center; 
 
 }
 
