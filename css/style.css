@@ -414,7 +414,12 @@ a.active {
 
 .case-button:hover {
     background-color: black;          
-    color: white;                 
+    color: white;  
+    text-decoration: none;               
+}
+.case-button:hover a {         
+    color: white;  
+            
 }
 
 
@@ -425,9 +430,37 @@ a.active {
 #about {
 
 }   
-.about-img-div img {
-   
-    margin: 0 auto;
+.about-div {
+    width: 100%;
+    min-height: 500px;
+    text-align: center;              
+    background-size: cover;            
+    background-position: center;       
+    background-repeat: no-repeat;      
+    font-display: #000000;                   
+
+}
+.about-div img {
+    width: 200px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 50px;                 
+
+}
+.about-div .icon ion-icon {
+font-size: 25px;
+padding: 10px;
+color: #ffffff;
+border-radius: 50%;
+background-color: #ffa70d;
+margin: 20px 5px;
+cursor: pointer;
+}
+    width: 200px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 50px;                 
+
 }
 
 .about-border {
