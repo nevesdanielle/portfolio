@@ -151,7 +151,7 @@ small {
     font-size: 0.8em;
 }
 p {
-    color: #111111;
+    color: #000000;
     line-height: 24px;
     font-size: 18px;
     font-weight: 100;
@@ -161,7 +161,7 @@ p {
 hr {
     width: 40px;
     height: 1px;
-    background: #111111;
+    background: #000000;
     border-top: 0;
     margin-top: 0px;
     margin-bottom: 20px;

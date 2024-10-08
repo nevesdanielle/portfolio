@@ -1356,6 +1356,9 @@ a:hover{
         width: 90%;
         left: 2em;
     }
+    .about-div img { 
+        left: 15px;
+    }
 }
 
 @media (max-width: 500px) {
