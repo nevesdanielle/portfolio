@@ -394,16 +394,18 @@ a.active {
 }
 
 /* Button styling */
+
 .case-button {
     position: relative;                                   
-    width: 180px;                      
+    width: 170px;                      
     height: 45px;                     
-    background-color: white;          
+    background-color: transparent;          
     color: black;                                     
-    border-radius: 30px;              
+    border-radius: 50px; 
+    border-color: #000000;
+    border: style 1px;;             
     text-align: center;                                           
     cursor: pointer; 
-    border:none;
     font-family: 'Lato','Open Sans';
     font-size: 17px;
 	font-weight: 500;     
@@ -1357,8 +1359,8 @@ a:hover{
         left: 2em;
     }
     .about-div img { 
-        left: 15px;
-    }
+        left: 30px;
+    
 }
 
 @media (max-width: 500px) {
