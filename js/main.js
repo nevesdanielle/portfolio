@@ -415,7 +415,7 @@ window.addEventListener("DOMContentLoaded", function(e) {
 
     $(function() {
       typed.typed({
-        strings: ["Danielle Neves", "Product Designer"],
+        strings: ["I'm Danielle Neves,", "an Engineer", "and Product Designer."],
         typeSpeed: 100,
       responsiveClass: true,
         loop: true,
