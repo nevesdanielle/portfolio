@@ -415,12 +415,12 @@ a.active {
 }
 
 .case-button:hover {
-    background-color: black;          
+    background-color: #ffa70d;          
     color: white;  
     text-decoration: none;               
 }
 .case-button:hover a {         
-    color: white;  
+    color: black;  
             
 }
 
