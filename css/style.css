@@ -407,7 +407,6 @@ a.active {
     text-align: center;                                           
     cursor: pointer; 
     font-family: 'Lato','Open Sans';
-    font-size: 17px;
 	font-weight: 500;     
     letter-spacing: 2px;
     line-height: 10px;
@@ -415,12 +414,12 @@ a.active {
 }
 
 .case-button:hover {
-    background-color: #ffa70d;          
-    color: white;  
+    background-color: #ffa70d;            
     text-decoration: none;               
 }
 .case-button:hover a {         
-    color: black;  
+    color: black; 
+ 
             
 }
 
@@ -1360,7 +1359,20 @@ a:hover{
     }
     .about-div img { 
         left: 30px;
-    
+        
+    }
+    .case-button {
+        position: initial;
+        left: 50%; /* Center horizontally */
+
+    }
+    .header-page .inner-content .header-content h1 {
+        font-size: 30px;
+        margin: auto;
+        text-align: initial;
+    }
+}
+
 }
 
 @media (max-width: 500px) {
