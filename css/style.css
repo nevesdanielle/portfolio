@@ -389,7 +389,7 @@ a.active {
     background-size: cover;            
     background-position: center;       
     background-repeat: no-repeat;      
-    min-height: 600px; 
+    min-height: 650px; 
     font-display: #000000;                   
 }
 
@@ -1080,6 +1080,12 @@ text-align: center;
 .portfolio-inner {
     padding-bottom: 0 !important;
     padding-top: 55px;
+}
+.portfolio-intro {
+    padding-left: 0;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .modal-content {
