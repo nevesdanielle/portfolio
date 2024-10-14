@@ -29,7 +29,7 @@
 
 /*
 font-family: 'Playfair Display', serif;
-font-family: 'Lato', sans-serif;
+font-family: 'Helvetica', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 
@@ -38,7 +38,7 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 h1 {
-    font-family: 'Lato','Open Sans';
+    font-family: 'Helvetica','sans-serif';
     font-size: 55px;
 	color: #050505;
     line-height: 60px;
@@ -46,14 +46,14 @@ h1 {
 }
 
 h2 {
-    font-family: 'Lato','Open Sans';
+    font-family: 'Helvetica','sans-serif';
     font-size: 30px;
     line-height: 30px;
 	font-weight: normal;
 }
 
 h4 {
-    font-family:  'Lato','Open Sans';
+    font-family:  'Helvetica','sans-serif';
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
@@ -80,7 +80,7 @@ h4:before {
 ==================================================*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica','sans-serif';
     font-size: 14px;
     line-height: 24px;
 }
@@ -88,7 +88,7 @@ body {
 .size-20 {
     font-size: 20px;
     line-height: 20px;
-    font-family: 'Lato', 'Open Sans';
+    font-family: 'Helvetica','sans-serif';
 	font-weight: bold;
 }
 
@@ -368,15 +368,15 @@ a.active {
 
 .disply-table h1 {
     letter-spacing: 0px;
-    font-weight: normal;
-    font-family: 'Montserrat-ExtraBold';
+    font-weight: 700;
+    font-family: 'Helvetica';
     font-size: 70px;
     color: #000000;
 }
 .disply-table a {
     letter-spacing: 0px;
     font-weight: normal;
-    font-family: 'Montserrat-ExtraBold';
+    font-family: 'Helvetica';
     font-size: 16px;
     color: #ffa70d;
 }
@@ -406,7 +406,7 @@ a.active {
     border: style 1px;;             
     text-align: center;                                           
     cursor: pointer; 
-    font-family: 'Lato','Open Sans';
+    font-family: 'Helvetica','sans-serif';
 	font-weight: 500;     
     letter-spacing: 2px;
     line-height: 10px;
@@ -656,7 +656,7 @@ text-align: center;
 }
 
 .experience-row h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Helvetica','sans-serif';
     text-transform: capitalize;
     letter-spacing: 2px;
     color: #ffa70d;
@@ -843,9 +843,9 @@ text-align: center;
     color: #050505;
     margin-left: 10px;
     font-weight: 500;
-  font-size: 16px;
-  font-family: 'Lato', serif;
-  margin-bottom: 10px; }
+    font-size: 16px;
+    font-family: 'Helvetica','sans-serif';
+    margin-bottom: 10px; }
 
 .progress {
   height: 6px;
@@ -1117,7 +1117,7 @@ text-align: center;
 }
 
 .modal-content h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Helvetica','sans-serif';
     font-size: 40px;
     line-height: 50px;
 }
@@ -1334,6 +1334,9 @@ a:hover{
 /* Styles for tablets and smaller devices (widths between 768px and 1024px) */
 @media (max-width: 1024px) {
     h1 {
+        font-family: Helvetica, sans-serif;
+        font-weight: 700;
+        line-height: 50;
         font-size: 40px; /* Adjust font size for medium screens */
     }
 }
@@ -1341,6 +1344,9 @@ a:hover{
 /* Styles for mobile devices (widths 767px and below) */
 @media (max-width: 767px) {
     h1 {
+        font-family: Helvetica, sans-serif;
+        font-weight: 700;
+        line-height: 50;
         font-size: 30px; /* Smaller font size for mobile devices */
     }
 }
@@ -1348,6 +1354,9 @@ a:hover{
 /* Styles for very small devices (widths 480px and below) */
 @media (max-width: 480px) {
     h1 {
+        font-family: Helvetica, sans-serif;
+        font-weight: 700;
+        line-height: 50;
         font-size: 24px; /* Even smaller font size for very small screens */
     }
 }
@@ -1374,18 +1383,21 @@ a:hover{
     }
     .header-page .inner-content .header-content h1 {
         font-size: 30px;
+        font-family: 'Helvetica','sans-serif';
+        font-weight: 700;
+        line-height: 50px;
         margin: auto;
         text-align: initial;
     }
 }
 
-}
 
 @media (max-width: 500px) {
     h1 {
-        font-family: 'Lato', 'Open Sans';
+        font-family: 'Helvetica','sans-serif';
+        font-weight: 700;
         font-size: 45px;
-        line-height: 45px;
+        line-height: 50px;
     }
     #home,
     .disply-table {

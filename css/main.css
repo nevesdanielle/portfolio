@@ -61,7 +61,7 @@ html {
 body {
     overflow-x: hidden !important;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Helvetica','sans-serif';
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -97,7 +97,7 @@ body {
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Helvetica','sans-serif';
 }
 :-moz-placeholder {
     /* Firefox 18- */
@@ -105,7 +105,7 @@ body {
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Helvetica','sans-serif';
 }
 ::-moz-placeholder {
     /* Firefox 19+ */
@@ -113,13 +113,13 @@ body {
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Helvetica','sans-serif';
 }
 :-ms-input-placeholder {
     color: #787878;
     font-size: 14px;
     letter-spacing: 1pt;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Helvetica','sans-serif';
 }
 /* =Typography
 -------------------------------------------------------------- */
@@ -193,7 +193,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Helvetica','sans-serif';
     letter-spacing: 1.3pt;
     color: #111111;
     clear: both;
@@ -271,10 +271,11 @@ ul.sublist {
 .main-title h1 {
     font-size: 24px;
     font-weight: 700;
+    line-height: 50px;
     margin: 0;
 }
 .main-title h6 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Helvetica','sans-serif';
 }
 .slogan {
     display: block;
@@ -287,6 +288,7 @@ ul.sublist {
 .second-title h1 {
     font-size: 18px;
     font-weight: 700;
+    line-height: 50px;
     text-align: left;
     margin: 0;
 }
@@ -309,7 +311,7 @@ ul.sublist {
     color: #111111;
     font-weight: 100;
     font-size: 18px;
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Helvetica','sans-serif';
     border: 1px solid #f4f4f4;
     display: inline-block;
     width: 100%;
@@ -511,7 +513,7 @@ a:hover>span.site-name{
     letter-spacing: 8px;
 }
 .slider-description-inner h1 span {
-    font-family: 'azedolight';
+    font-family: 'Helvetica','sans-serif';
     background: #ffa70d;
     padding: 22px;
     font-weight: 100;
@@ -570,7 +572,7 @@ a:hover>span.site-name{
     background-color: #000;
 }
 .cd-headline.clip b {
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Helvetica','sans-serif';
     opacity: 0;
 }
 .cd-headline.clip b.is-visible {
@@ -599,9 +601,9 @@ a:hover>span.site-name{
 .header-page .inner-content .header-content h1 {
     text-align: center;
     font-size: 40px;
-    font-weight: 100;
-    font-family: 'Montserrat-ExtraBold';
-    line-height: 40px;
+    font-weight: 700;
+    font-family: 'Helvetica','sans-serif';
+    line-height: 50px;
 
 }
 .header-page .inner-content .header-content hr {
@@ -854,7 +856,7 @@ svg {
 }
 .slide__text-heading {
     font-size: 48px;
-    font-family: 'azedobold';
+    font-family: 'Helvetica','sans-serif';
     text-transform: uppercase;
     font-weight: 800;
     dispay: block;
@@ -864,7 +866,7 @@ svg {
     letter-spacing: 4.5pt;
 }
 span.border-text {
-    font-family: 'azedolight';
+    font-family: 'Helvetica','sans-serif';
     font-weight: 100;
     color: #fff;
     border: 2px solid #fff;
@@ -874,7 +876,7 @@ span.border-text {
 }
 .slide__text p {
     font-size: 24px;
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Helvetica','sans-serif';
     padding-top: 30px;
     line-height: 30px;
     color: #ffffff;
@@ -899,7 +901,7 @@ span.border-text {
     font-weight: 50;
     line-height: 60px;
     color: #ffffff;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Helvetica','sans-serif';
     letter-spacing: 2.5pt;
 }
 .arch-slider-content a {
@@ -907,7 +909,7 @@ span.border-text {
     font-weight: 10;
     line-height: 20px;
     color: #ffffff;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Helvetica','sans-serif';
     letter-spacing: 2.5pt;
 }
 .slider-controls {
@@ -1278,7 +1280,7 @@ span.border-text {
 .menu-list ul li a {
     font-weight: 900;
     font-size: 30px;
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Helvetica','sans-serif';
     text-transform: uppercase;
     letter-spacing: 2.5pt;
     transition: all 350ms cubic-bezier(0.215, .61, .215, 1);
@@ -1420,7 +1422,7 @@ ul.sub-menu li a {
     bottom: 18px;
 }
 .menu-information p {
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Helvetica','sans-serif';
     color: #fff;
     padding-left: 71px;
     line-height: 18px;
@@ -1439,7 +1441,7 @@ ul.sub-menu li a {
     list-style: none;
     color: #fff;
     letter-spacing: 2.5pt;
-    font-family: 'Lekton', sans-serif;
+    font-family: 'Helvetica','sans-serif';
 }
 .menu-information ul li span {
     padding-right: 15px;
@@ -1490,17 +1492,17 @@ ul.sub-menu li a {
 .history-wrapper h1 {
     display: table;
     font-size: 50px;
-    font-weight: 100;
-    font-family: 'Montserrat-ExtraBold';
-    line-height: 40px;
+    font-weight: 700;
+    font-family: 'Helvetica';
+    line-height: 50px;
 
 }
 .history-wrapper article {
     margin-top: 50px;
 }
 .history-wrapper h4 {
-    font-family: 'Ubuntu';
-    font-weight: 400;
+    font-family: 'Helvetica';
+    font-weight: 700;
     line-height: 24px;
 }
 /* Services */
@@ -1607,7 +1609,7 @@ ul.sub-menu li a {
     margin-right: 20px;
 }
 .box-over-image-inner h1 {
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
 }
 .box-over-image-inner hr {
@@ -1625,7 +1627,8 @@ ul.sub-menu li a {
 }
 .tabs-wrapper h1 {
     text-align: center;
-    font-weight: 400;
+    font-weight: 700;
+    line-height: 50px;
     margin: 0;
 }
 .tabs-image {
@@ -2617,7 +2620,7 @@ ul.social-buttons li {
     text-transform: uppercase;
 }
 .blog-front-content-inner h1 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 22px;
     color: #fff;
     font-weight: 100;
@@ -2634,8 +2637,9 @@ ul.social-buttons li {
     color: #fff;
 }
 .single-blog-wrapper {} .single-blog-wrapper h1 {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300;
+    font-family: 'Helvetica','sans-serif';
+    font-weight: 700;
+    line-height:50px ;
 }
 .info-title {
     color: #fff;
@@ -2835,7 +2839,8 @@ margin-bottom: 10px;
 .inner-map .inner-map-content h1 {
     text-align: center;
     font-size: 60px;
-    font-family: 'azedobold', sans-serif;
+    font-family: 'Helvetica','sans-serif';
+    font-weight: 700;
 }
 .inner-map .inner-map-content hr {
     float: none;
