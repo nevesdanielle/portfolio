@@ -177,7 +177,7 @@ body {
     width: 100%;
     -webkit-animation: rotation 1s linear infinite;
     animation: rotation 1s linear infinite;
-    border: 2px solid #ffa70d;
+    border: 2px solid #e8c47c;
     border-top: 2px solid transparent;
     border-radius: 100%
 }
@@ -331,12 +331,12 @@ a:focus {
 }
 
 a:hover {
-    color: #ffa70d;
+    color: #e8c47c;
     text-decoration: none;
 }
 
 a.active {
-    color: #ffa70d;
+    color: #e8c47c;
 }
 
 
@@ -378,7 +378,7 @@ a.active {
     font-weight: normal;
     font-family: 'Helvetica';
     font-size: 16px;
-    color: #ffa70d;
+    color: #e8c47c;
 }
 
 /* case study section
@@ -414,7 +414,7 @@ a.active {
 }
 
 .case-button:hover {
-    background-color: #ffa70d;            
+    background-color: #ffffff;            
     text-decoration: none;               
 }
 .case-button:hover a {         
@@ -453,7 +453,7 @@ a.active {
 font-size: 25px;
 color: #000000;
 border-radius: 50%;
-background-color: #ffa70d;
+background-color: #e8c47c;
 margin: 20px 5px;
 cursor: pointer;
 position: relative;
@@ -463,7 +463,7 @@ text-align: center;
 
 .about-border {
     position: absolute;
-    border: 10px solid #ffa70d;
+    border: 10px solid #e8c47c;
     width: 400px;
     height: 400px;
     top: 40px;
@@ -659,7 +659,7 @@ text-align: center;
     font-family: 'Helvetica','sans-serif';
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #ffa70d;
+    color: #e8c47c;
     font-size: 16px;
     font-weight: bold
 }
@@ -699,11 +699,11 @@ text-align: center;
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #ffa70d;
+    background-color: #e8c47c;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #ffa70d;
+    box-shadow: inset 40em 0 0 0 #e8c47c;
 }
 
 .timeline-event-copy {
@@ -738,7 +738,7 @@ text-align: center;
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #ffa70d;
+    background-color: #e8c47c;
     outline: 10px solid #f3f3f3;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
@@ -760,7 +760,7 @@ text-align: center;
     font-size: 12px;
     font-weight: bold;
     background-color: black;
-    box-shadow: inset 0 0 0 0em #ffa70d;
+    box-shadow: inset 0 0 0 0em #e8c47c;
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
@@ -983,7 +983,7 @@ text-align: center;
 
 .services-block i {
   font-size: 44px;
-  color:  #ffa70d; 
+  color:  #e8c47c; 
   line-height: 44px;
 }
 
@@ -1114,11 +1114,11 @@ text-align: center;
     .progress-bar.color-7 span {
       color: #999; }
 .progress-bar.color-8 {
-    background: #ffa70d; }
+    background: #e8c47c; }
     .progress-bar.color-8:after {
-      background: #ffa70d; }
+      background: #e8c47c; }
     .progress-bar.color-8 span {
-      color: #ffa70d; }
+      color: #e8c47c; }
 
 /* Projects Section
 ==================================================*/
@@ -1153,7 +1153,7 @@ text-align: center;
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: #ffa70d;
+    background-color: #e8c47c;
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -1176,7 +1176,7 @@ text-align: center;
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #ffa70d;
+    background-color: #e8c47c;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -1211,7 +1211,7 @@ text-align: center;
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #ffa70d;
+    background-color: #e8c47c;
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -1349,7 +1349,7 @@ text-align: center;
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #ffa70d;
+    color: #e8c47c;
 }
 
 .image {
@@ -1437,11 +1437,11 @@ fieldset {
 }
 
 #success p {
-    color: #ffa70d;
+    color: #e8c47c;
     font-size: 15px;
     text-align: center;
     padding: 10px;
-    border: 2px solid #ffa70d;
+    border: 2px solid #e8c47c;
     margin-top: 10px;
 }
 
@@ -1455,7 +1455,7 @@ fieldset {
 }
 
 #submit {
-    background-color: #ffa70d;
+    background-color: #e8c47c;
     color: #fff;
     padding: 10px 40px;
     border-radius: 0;
@@ -1484,7 +1484,7 @@ fieldset {
 }
 
 .social li a:hover {
-    color: #ffa70d;
+    color: #e8c47c;
 }
 
 
@@ -1511,7 +1511,7 @@ fieldset {
     font-size: 20px;
 }
 a:hover{
-    color: #ffa70d;
+    color: #e8c47c;
 }
 
 
