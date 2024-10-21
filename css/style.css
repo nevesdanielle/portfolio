@@ -414,13 +414,12 @@ a.active {
 }
 
 .case-button:hover {
-    background-color: #ffffff;            
-    text-decoration: none;               
+    background-color: #e8c47c;            
+              
 }
 .case-button:hover a {         
-    color: black; 
- 
-            
+    color: black;
+       
 }
 
 
@@ -453,7 +452,6 @@ a.active {
 font-size: 25px;
 color: #000000;
 border-radius: 50%;
-background-color: #e8c47c;
 margin: 20px 5px;
 cursor: pointer;
 position: relative;
@@ -1486,7 +1484,6 @@ fieldset {
 .social li a:hover {
     color: #e8c47c;
 }
-
 
 
 

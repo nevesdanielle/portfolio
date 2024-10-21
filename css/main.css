@@ -2042,7 +2042,23 @@ ul.client-thumb-2 li a img:hover{
     transition: opacity 0.35s, transform 0.35s;
     -o-transition: opacity 0.35s, -o-transform 0.35s;
 }
-.img:hover img {
+.img-motion {
+    position: relative;
+    overflow: hidden;
+    display: inherit;
+    margin-bottom: 30px;
+}
+
+.img-motion img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -o-transition: opacity 0.35s, -o-transform 0.35s;
+}
+.img-motion:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     transition: -webkit-transform 3s;
