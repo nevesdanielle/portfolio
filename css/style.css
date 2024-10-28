@@ -39,10 +39,10 @@ font-family: 'Open Sans', sans-serif;
 
 h1 {
     font-family: 'Helvetica','sans-serif';
-    font-size: 55px;
-	color: #050505;
-    line-height: 60px;
-	font-weight: bold;
+    font-size: 45px;
+	  color: #050505;
+    line-height: 40px;
+	  font-weight: bold;
 }
 
 h2 {
@@ -58,23 +58,9 @@ h4 {
     letter-spacing: 2px;
     position: relative;
     color: #050505;
-    margin-left: 40px;
     font-weight: 700;
 	
 }
-
-h4:before {
-    position: absolute;
-    width: 30px;
-    left: -40px;
-    content: "";
-    display: block;
-    height: 2px;
-    background: #050505;
-    top: 9px;
-}
-
-
 
 /* General
 ==================================================*/
@@ -350,7 +336,7 @@ a.active {
     background: url(../img/cover2.png);
     background-position: center;
     background-size: cover;
-    height: 110vh;
+    height: auto;
    
 }
 
@@ -1484,6 +1470,46 @@ fieldset {
 .social li a:hover {
     color: #e8c47c;
 }
+#new-case-banner-background {
+  margin-right: 4.5em;
+}
+#new-case-banner {
+  display: flex;
+  height: 700px;
+  padding: 2.5em 0;
+}
+#new-case-banner-content {
+  width: 100%;
+  position: relative;
+  padding-left: 2.5em;
+}
+
+#new-case-logo-description {
+  display: flex;
+  background-color: #EEEEEE;
+}
+.new-case-block {
+  background-color: white;
+  margin-bottom: 2.5em;
+}
+#new-case-task-solution {
+  display: flex;
+  padding: 2.5em;
+  align-items: center;
+  text-align: left;
+}
+#new-case-paragraphs {
+  padding: 2em;
+  text-align: left;
+}
+
+#new-case-full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 
 
 
@@ -1550,6 +1576,7 @@ a:hover{
     }
 }
 
+
 @media (max-width: 768px) {
     .timeline-event-copy {
         width: 90%;
@@ -1572,8 +1599,7 @@ a:hover{
         margin: auto;
         text-align: initial;
     }
-}
-
+  }
 
 @media (max-width: 500px) {
     h1 {
