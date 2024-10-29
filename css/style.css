@@ -336,6 +336,7 @@ a.active {
     background: url(../img/cover2.png);
     background-position: center;
     background-size: cover;
+    padding-top: 20px;
     height: auto;
    
 }
@@ -1470,44 +1471,28 @@ fieldset {
 .social li a:hover {
     color: #e8c47c;
 }
-#new-case-banner-background {
-  margin-right: 4.5em;
-}
-#new-case-banner {
-  display: flex;
-  height: 700px;
-  padding: 2.5em 0;
-}
-#new-case-banner-content {
+
+.case {
   width: 100%;
   position: relative;
-  padding-left: 2.5em;
+  padding-block: 4.5em;         /* Center text inside the div */              /* Optional: some padding for small devices */
+  background-color: #eeeeee;
+
+}
+.case-header {
+
+    
+    text-align: left;
+    display: flow;
+    background-color: #ffffff;
+    
 }
 
-#new-case-logo-description {
-  display: flex;
-  background-color: #EEEEEE;
-}
-.new-case-block {
-  background-color: white;
-  margin-bottom: 2.5em;
-}
-#new-case-task-solution {
-  display: flex;
-  padding: 2.5em;
-  align-items: center;
-  text-align: left;
-}
-#new-case-paragraphs {
-  padding: 2em;
-  text-align: left;
-}
 
-#new-case-full {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+.case-header img{
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -1560,6 +1545,7 @@ a:hover{
     }
 }
 
+
 /* Styles for very small devices (widths 480px and below) */
 @media (max-width: 480px) {
     h1 {
@@ -1568,6 +1554,9 @@ a:hover{
         line-height: 50;
         font-size: 24px; /* Even smaller font size for very small screens */
     }
+    .case-header h1 {
+      font-size: 25px;
+     }
 }
 
 @media (max-width: 991px) { 
