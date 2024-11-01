@@ -275,7 +275,14 @@ ul.sublist {
     font-size: 55px;
     font-weight: 700;
     line-height: 50px;
-    margin: 0;
+    padding-block: 30px;
+    text-align: center;
+}
+.main-title h1 span {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 50px;
+   background-color: #f2ab3e;
 }
 .main-title h6 {
     font-family: 'Helvetica','sans-serif';
@@ -497,13 +504,15 @@ a:hover>span.site-name{
 /*Slider Home*/
 .slider-wrapper {
     position: relative;
+
 }
 .slider-images-wrapper {
     z-index: -1;
+    margin-top: 0px;
 }
 .slider-description {
     position: absolute;
-    top: 45%;
+    bottom: 10%;
     width: 100%;
     max-width: 100%;
 }
@@ -511,25 +520,23 @@ a:hover>span.site-name{
     margin-left: 6%;
 }
 .slider-description-inner h1 {
-    font-family: 'azedobold';
+    font-family: 'Helvetica';
     font-size: 60px;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
 }
 .slider-description-inner h1 span {
     font-family: 'Helvetica','sans-serif';
-    background: #e8c47c;
+    background: #;
     padding: 22px;
     font-weight: 100;
     margin-left: 10px;
     line-height: 80px;
 }
 .cd-intro {
-    float: left;
     margin-left: 6%;
 }
 .cd-headline {
     font-size: 30px;
-    margin-top: 40px;
     color: #000;
     font-weight: 100;
     letter-spacing: 3pt;
@@ -617,7 +624,23 @@ a:hover>span.site-name{
     font-size: 18px;
 }  
 .header-page img {
+    background-image: url('your-image.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* Makes the image cover the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the header height to the full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color to stand out on image */
+    text-align: center;
+    padding: 0 20px;
         
+}
+
+.header-page img h1 {
+    font-size: 3em; /* Adjust font size as needed */
+    margin: 0;
 }
 /* =Full Width Slider
 -------------------------------------------------------------- */

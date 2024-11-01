@@ -785,8 +785,9 @@ text-align: center;
     align-items: center;        /* Center vertically */             
     text-align: center;         /* Center text inside the div */
     padding: 15px;              /* Optional: some padding for small devices */
-    box-sizing: border-box;     /* Ensure padding doesn’t affect centering */
-}
+    box-sizing: border-box;
+  }  
+
   
   .card {
     position: absolute;
@@ -1473,6 +1474,7 @@ fieldset {
 }
 
 .case {
+  
   width: 100%;
   position: relative;
   padding-block: 4.5em;         /* Center text inside the div */              /* Optional: some padding for small devices */
@@ -1480,11 +1482,12 @@ fieldset {
 
 }
 .case-header {
-
-    
+  
+  padding: 4.5em;
+  margin-top: 0px;
+  background-color:#ffffff; 
     text-align: left;
     display: flow;
-    background-color: #ffffff;
     
 }
 
