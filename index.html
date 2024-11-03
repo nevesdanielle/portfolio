@@ -193,28 +193,32 @@
         </div>
     </div>
     <div class="row">
-    <div class="col-md-6 col-md-offset-1" >
-
-        <div class="centered-content"> 
-            <div class="slider">
-                <input type="radio" name="slider" id="item-1" checked>
-                <input type="radio" name="slider" id="item-2" >
-                <input type="radio" name="slider" id="item-3" >
-              <div class="cards">
-                <label class="card" for="item-1" id="song-1">
-                  <img src="img/sides/wireframes/mobile1.png" alt="">
-                </label>
-                <label class="card" for="item-2" id="song-2">
-                  <img src="img/sides/wireframes/mobile2.png" alt="">
-                </label>
-                <label class="card" for="item-3" id="song-3">
-                  <img src="img/sides/wireframes/mobile4.png" alt="">
-                </label>
-              </div>
-             
-              </div>
+        <div class="col-md-6 col-md-offset-1">
+            <div class="centered-content"> 
+                <div class="slider">
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                    
+                    <!-- Arrows for navigation -->
+                    <label class="arrow arrow-left" for="item-3">&#9664;</label> <!-- Left arrow -->
+                    <label class="arrow arrow-right" for="item-2">&#9654;</label> <!-- Right arrow -->
+    
+                    <div class="cards">
+                        <label class="card" for="item-1" id="song-1">
+                            <img src="img/sides/wireframes/mobile1.png" alt="">
+                        </label>
+                        <label class="card" for="item-2" id="song-2">
+                            <img src="img/sides/wireframes/mobile2.png" alt="">
+                        </label>
+                        <label class="card" for="item-3" id="song-3">
+                            <img src="img/sides/wireframes/mobile4.png" alt="">
+                        </label>
+                    </div>
+                </div>
             </div>
-        </div></div>
+        </div>
+    </div>
 
             <div class="h-100"></div>
 
@@ -399,7 +403,42 @@
 </div>  
 
 <!-- End of Foot-->
-
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const totalItems = 3; // Total number of items in your carousel
+        const prevArrow = document.querySelector('.arrow-left');
+        const nextArrow = document.querySelector('.arrow-right');
+        const radioButtons = document.querySelectorAll('input[name="slider"]');
+        
+        // Function to get the currently checked radio button index
+        function getCurrentIndex() {
+            for (let i = 0; i < radioButtons.length; i++) {
+                if (radioButtons[i].checked) {
+                    return i + 1;
+                }
+            }
+        }
+    
+        // Function to update the "for" attributes to create a loop
+        function updateArrows() {
+            const currentIndex = getCurrentIndex();
+    
+            // Calculate previous and next indices, looping around
+            const prevIndex = currentIndex === 1 ? totalItems : currentIndex - 1;
+            const nextIndex = currentIndex === totalItems ? 1 : currentIndex + 1;
+    
+            prevArrow.setAttribute('for', `item-${prevIndex}`);
+            nextArrow.setAttribute('for', `item-${nextIndex}`);
+        }
+    
+        // Update arrows initially and every time a radio button changes
+        updateArrows();
+        radioButtons.forEach(radio => {
+            radio.addEventListener('change', updateArrows);
+        });
+    });
+    </script>
+    
 
     <a href="javascript:void(0)" class="" id=""><i class="pe-7s-angle-up"></i></a>
 
