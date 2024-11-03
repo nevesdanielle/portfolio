@@ -938,6 +938,39 @@ text-align: center;
     transform: translateY(-80px);
   }
 
+  /* Style for the arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 2em;
+  color: #333; /* Customize color */
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+.arrow-left {
+  left: 10px; /* Position left arrow */
+}
+
+.arrow-right {
+  right: 10px; /* Position right arrow */
+}
+
+/* Hover effect for the arrows */
+.arrow:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+
+/* Position the slider relative for arrows to align within it */
+.slider {
+  position: relative;
+}
+
 /* Skills Section
 ==================================================*/
 #services {
