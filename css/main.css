@@ -3270,3 +3270,14 @@ a img.aligncenter {
 .alert-danger .alert-link {
   color: #d2d2d2;
 }
+
+@media (max-width: 768px) {
+.main-title h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-block: 30px;
+    text-align: center;
+}
+}
+

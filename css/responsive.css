@@ -94,7 +94,7 @@
 
 
 	.slider-description-inner h1, .cd-headline{
-		font-size: 20px;
+		font-size: 55px;
 	}
 	.menu-wrap{
 		width: 100%;
@@ -337,7 +337,7 @@
         font-size: 14px;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .cbp_tmtimeline:before {
         display: none;
     }
@@ -370,5 +370,10 @@
         left: auto;
         margin: -75px 5px 0 0px;
     }
+	.cd-headline {
+		font-size: 21px;
+		color: #000;
+		font-weight: 100;
+		letter-spacing: 3pt;
+	}
 }
-

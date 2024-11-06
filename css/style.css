@@ -1625,6 +1625,13 @@ a:hover{
         margin: auto;
         text-align: initial;
     }
+    .card {
+      position: absolute;
+      left: -70px;
+      margin: auto;
+      transition: transform .4s ease;
+      cursor: pointer;
+      padding-top: 50px;
   }
 
 @media (max-width: 500px) {
