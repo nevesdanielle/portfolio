@@ -1515,8 +1515,6 @@ fieldset {
 
 }
 .case-header {
-  
-  padding: 4.5em;
   margin-top: 0px;
   background-color:#ffffff; 
     text-align: left;
@@ -1627,7 +1625,7 @@ a:hover{
     }
     .card {
       position: absolute;
-      left: -70px;
+      left: -60px;
       margin: auto;
       transition: transform .4s ease;
       cursor: pointer;
