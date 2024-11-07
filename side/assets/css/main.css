@@ -2278,7 +2278,7 @@ input, select, textarea {
 
 			.panel > .intro.joined {
 				width: 18.5rem;
-				padding-right: 0;
+				padding-right: 35px;
 			}
 
 				.panel > .intro.joined + .inner {
@@ -2765,7 +2765,7 @@ input, select, textarea {
 		}
 
 	@media screen and (max-width: 736px) {
-
+	
 		.panel {
 			-moz-flex-direction: column;
 			-webkit-flex-direction: column;
@@ -2830,15 +2830,17 @@ input, select, textarea {
 				.panel > .intro.joined {
 					padding-bottom: 0;
 					padding-right: 1.75rem;
+					
 				}
+				
+				.intro.joined.mobile-only {
+					padding-top: 0px;
 
-					.panel > .intro.joined + .inner {
-						padding-top: 0;
-						padding-left: 1.75rem;
-					}
+ 				 }
 
-			.panel > .inner {
+			    .panel > .inner {
 				padding: 2.8875rem 1.75rem 1.3875rem 1.75rem ;
+				padding-right: 1.75rem;
 			}
 
 				.panel > .inner.columns {
