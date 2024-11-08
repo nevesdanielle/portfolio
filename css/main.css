@@ -1223,7 +1223,7 @@ span.border-text {
 .menu-wrap {
     position: fixed;
     z-index: 9999;
-    width: 40%;
+    width: 30%;
     height: 100%;
     right: 0;
     top: 0;
@@ -1515,6 +1515,11 @@ ul.sub-menu li a {
   float: left;
     width: 100%;
 }
+.history-wrapper p {
+    line-height: 40px;
+    font-size: 33px;
+  }
+
 .history-wrapper h1 {
     display: table;
     font-size: 50px;
@@ -3285,5 +3290,8 @@ a img.aligncenter {
     line-height: 50px;
     background-color: #f2ab3e;
 }
+.history-wrapper p {
+    font-size: 23px;
+    line-height: 31px;
+  }
 }
-

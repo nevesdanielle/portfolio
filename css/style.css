@@ -1578,9 +1578,8 @@ a:hover{
         line-height: 50;
         font-size: 30px; /* Smaller font size for mobile devices */
     }
+
 }
-
-
 /* Styles for very small devices (widths 480px and below) */
 @media (max-width: 480px) {
     h1 {
@@ -1631,13 +1630,21 @@ a:hover{
       cursor: pointer;
       padding-top: 50px;
   }
+  h1 {
+    font-family: 'Helvetica','sans-serif';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 0px;
+}
 
 @media (max-width: 500px) {
     h1 {
         font-family: 'Helvetica','sans-serif';
         font-weight: 700;
-        font-size: 45px;
-        line-height: 50px;
+        font-size: 28px;
+        line-height: 40px;
+        margin-top: 0px;
     }
     #home,
     .disply-table {
