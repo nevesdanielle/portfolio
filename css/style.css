@@ -1565,7 +1565,6 @@ a:hover{
     h1 {
         font-family: Helvetica, sans-serif;
         font-weight: 700;
-        line-height: 50;
         font-size: 40px; /* Adjust font size for medium screens */
     }
 }
