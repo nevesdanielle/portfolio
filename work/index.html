@@ -75,7 +75,7 @@
                 <nav class="menu">
                     <div class="menu-list">
                         <ul>
-                            <li><a href="https://nevesdanielle.github.io/portfolio/">About Me</a></li>
+                            <li><a href="https://www.danielleneves.dk">About Me</a></li>
                             <li><a href="index.html#portfolio">Work</a></li>
             
                         </ul>
@@ -223,8 +223,8 @@
 
 
 
-<!-- Side Projects -->
-<div id="portfolio" >
+
+   <div id="portfolio" ><!-- Side Projects -->
     
     <div class="main-title">
         <h1>CASE STUDIES</h1>
@@ -301,7 +301,6 @@
         </div>
     
     </div>
-</div>
 </div>
 </div>
 </section >
@@ -423,49 +422,15 @@
         <div class="h-10"></div>            
    </div>  
 </div> 
+
 <div class="h-10"></div>
 
 
 <!-- End of Foot-->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const totalItems = 3; // Total number of items in your carousel
-        const prevArrow = document.querySelector('.arrow-left');
-        const nextArrow = document.querySelector('.arrow-right');
-        const radioButtons = document.querySelectorAll('input[name="slider"]');
-        
-        // Function to get the currently checked radio button index
-        function getCurrentIndex() {
-            for (let i = 0; i < radioButtons.length; i++) {
-                if (radioButtons[i].checked) {
-                    return i + 1;
-                }
-            }
-        }
-    
-        // Function to update the "for" attributes to create a loop
-        function updateArrows() {
-            const currentIndex = getCurrentIndex();
-    
-            // Calculate previous and next indices, looping around
-            const prevIndex = currentIndex === 1 ? totalItems : currentIndex - 1;
-            const nextIndex = currentIndex === totalItems ? 1 : currentIndex + 1;
-    
-            prevArrow.setAttribute('for', `item-${prevIndex}`);
-            nextArrow.setAttribute('for', `item-${nextIndex}`);
-        }
-    
-        // Update arrows initially and every time a radio button changes
-        updateArrows();
-        radioButtons.forEach(radio => {
-            radio.addEventListener('change', updateArrows);
-        });
-    });
-    </script>
+
     
 
     <a href="javascript:void(0)" class="" id=""><i class="pe-7s-angle-up"></i></a>
-
     <script src="js/lib/jquery-1.11.2.min.js"></script>
     <script data-pace-options='{ "ajax": false }' src="js/lib/pace.min.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
@@ -485,5 +450,40 @@
     <script src="js/main.js"></script>
     <script src="js/ajax.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const totalItems = 3; // Total number of items in your carousel
+            const prevArrow = document.querySelector('.arrow-left');
+            const nextArrow = document.querySelector('.arrow-right');
+            const radioButtons = document.querySelectorAll('input[name="slider"]');
+            
+            // Function to get the currently checked radio button index
+            function getCurrentIndex() {
+                for (let i = 0; i < radioButtons.length; i++) {
+                    if (radioButtons[i].checked) {
+                        return i + 1;
+                    }
+                }
+            }
+        
+            // Function to update the "for" attributes to create a loop
+            function updateArrows() {
+                const currentIndex = getCurrentIndex();
+        
+                // Calculate previous and next indices, looping around
+                const prevIndex = currentIndex === 1 ? totalItems : currentIndex - 1;
+                const nextIndex = currentIndex === totalItems ? 1 : currentIndex + 1;
+        
+                prevArrow.setAttribute('for', `item-${prevIndex}`);
+                nextArrow.setAttribute('for', `item-${nextIndex}`);
+            }
+        
+            // Update arrows initially and every time a radio button changes
+            updateArrows();
+            radioButtons.forEach(radio => {
+                radio.addEventListener('change', updateArrows);
+            });
+        });
+        </script>
 </body>
 </html>
