@@ -1101,8 +1101,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
-		cursor: default;
+		display: inline-block;
 		list-style: none;
 		margin-left: -0.75rem;
 		padding-left: 0;
@@ -1135,7 +1134,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 0.975rem 0 0 0;
+				padding: 0.675rem 0 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
@@ -1552,7 +1551,7 @@ input, select, textarea {
 			height: 3.125rem;
 			line-height: 3.125rem;
 			text-indent: 3.125rem;
-			border-radius: 100%;
+			border-radius: 0;
 			overflow: hidden;
 			padding: 0;
 			letter-spacing: 0;
