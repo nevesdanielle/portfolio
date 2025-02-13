@@ -1622,7 +1622,6 @@ fieldset {
   bottom:100%;
 }
 
-/* If you want to cahnge the colors, make sure you change the fill in the svgs to match */
 .scroller{
   border: 5px solid #fff;
 }
@@ -1631,7 +1630,51 @@ fieldset {
   background: #fff;
 }
 
+.read-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Helvetica", Arial, sans-serif;    
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease;
 
+} 
+
+  .read-more .plus-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.read-more:hover {
+  color: #e8c47c;
+}
+
+.read-more:hover .plus-icon {
+  background-color: #000000;
+  transform: rotate(90deg);
+
+}.read-more:hover {
+  color: #e8c47c;
+}
+
+.read-more:hover .plus-icon {
+  background-color: #e8c47c;
+  transform: rotate(90deg);
+}
 /* Footer
 ==================================================*/
 
@@ -1662,7 +1705,7 @@ a:hover{
 /* Styles for tablets and smaller devices (widths between 768px and 1024px) */
 @media (max-width: 1024px) {
     h1 {
-        font-family: Helvetica, sans-serif;
+        font-family: "Helvetica", sans-serif;
         font-weight: 700;
         font-size: 40px; /* Adjust font size for medium screens */
     }

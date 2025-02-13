@@ -61,7 +61,7 @@ html {
 body {
     overflow-x: hidden !important;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Helvetica','sans-serif';
+    font-family: 'Helvetica',sans-serif;
 }
 ::-webkit-scrollbar {
     width: 10px;
@@ -272,14 +272,14 @@ ul.sublist {
     margin-bottom: 22px;
 }
 .main-title h1 {
-    font-size: 55px;
+    font-size: 90px;
     font-weight: 700;
     line-height: 50px;
     padding-block: 30px;
-    text-align: center;
+    text-align: left;
 }
 .main-title h1 span {
-    font-size: 55px;
+    font-size: 90px;
     font-weight: 700;
     line-height: 50px;
    background-color: #f2ab3e;
