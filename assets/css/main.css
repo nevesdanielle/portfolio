@@ -293,7 +293,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Helvetica", Arial, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1388,10 +1388,6 @@ input, select, textarea {
 					line-height: 2.125;
 				}
 
-			ul.contact-icons > li a {
-				border-bottom: 0;
-			}
-
 		ul.contact-icons.color1 > li:before {
 			color: #726193;
 		}
@@ -1407,6 +1403,7 @@ input, select, textarea {
 		ul.contact-icons.color4 > li:before {
 			color: #353865;
 		}
+		
 
 /* Table */
 
